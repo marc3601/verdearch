@@ -1,8 +1,8 @@
 import Footer from "./components/Footer";
 import "./globals.css";
-import { Roboto } from "next/font/google";
+import { Poppins } from "next/font/google";
 
-const roboto = Roboto({ weight: "400", subsets: ["latin"] });
+const roboto = Poppins({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
   title: "Verdearch - Atelier Projektowania Pasywnego i Biofilicznego.",
