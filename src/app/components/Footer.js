@@ -4,7 +4,7 @@ import logo from "public/images/logo.png";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <div className='p-3 bg-gray-700 mt-4 flex items-center justify-between'>
+    <div className='p-3 bg-gray-700 flex items-center justify-between'>
       <div id='logo'>
         <Image src={logo} alt='logo' width={130} />
       </div>

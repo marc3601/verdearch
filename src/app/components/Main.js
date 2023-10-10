@@ -5,10 +5,11 @@ import seal from "public/images/seal_en.png";
 import mainImage from "public/images/main.jpeg";
 const Main = () => {
   return (
-    <div className='relative min-h-screen flex '>
+    <div className='relative flex'>
       <Image
         src={mainImage}
         alt='main'
+        priority
         layout='fill'
         objectFit='cover'
         objectPosition='center'
@@ -26,23 +27,36 @@ const Main = () => {
 
         <div className='relative flex justify-around items-center bg-lime-100/40	'>
           <div id='image_container'>
-            <Image className='relative z-0' width={200} src={seal} alt='logo' />
+            <Image
+              className='relative z-0'
+              width={180}
+              src={seal}
+              alt='logo'
+              priority
+            />
           </div>
           <div id='image_container'>
-            <Image className='relative z-0' width={700} src={logo} alt='logo' />
+            <Image
+              className='relative z-0'
+              width={700}
+              src={logo}
+              alt='logo'
+              priority
+            />
           </div>
           <div id='image_container'>
             <Image
               className='relative z-0 invisible'
-              width={200}
+              width={180}
               src={logo}
               alt='logo'
             />
           </div>
         </div>
         <div className='relative p-10 mt-12 container mx-auto'>
-          <h1 className='2xl:text-5xl text-4xl pb-5'>
-            Design który Wspiera Twoje Zdrowie i Harmonie w Zgodzie z Naturą .
+          <h1 className='2xl:text-5xl xl:text-4xl text-3xl pb-5'>
+            Design który Wspiera Twoje Zdrowie i Harmonie w Zgodzie<br></br> z
+            Naturą .
           </h1>
           <p className='2xl:text-2xl text-xl '>
             Pomysl, ze przestrzeń w której przebywasz wspierają twój rozwój,

@@ -1,34 +1,33 @@
 import React from "react";
 import Image from "next/image";
-const Badge = ({ title, image, side = "right" }) => {
+import Link from "next/link";
+const Badge = ({ title, image, href }) => {
   return (
-    <div className='container w-11/12 mx-auto py-4'>
-      <div className='flex h-96	'>
-        <div
-          id='image'
-          className={`grow relative overflow-hidden ${
-            side === "left" ? "rounded-r-lg order-2" : "rounded-l-lg"
-          }`}>
-          <Image
-            className='hover:scale-110 transition duration-500 cursor-pointer'
-            src={image}
-            alt='problem'
-            layout='fill'
-            objectFit='cover'
-            objectPosition='center'
-          />
-        </div>
-        <div
-          id='headline'
-          className={`px-2 w-96 bg-green-800 flex items-center ${
-            side === "left" ? "rounded-l-lg order-1" : "rounded-r-lg"
-          }`}>
-          <div className='grow text-center 	'>
-            <p className='text-3xl text-white leading-9'>{title}</p>
+    <Link href={href}>
+      <div className='container w-11/12 2xl:w-2/3 mx-auto py-4'>
+        <div className='flex h-64 2xl:h-80 relative cursor-pointer'>
+          <div
+            id='image'
+            className='grow relative overflow-hidden 
+          rounded-lg
+          '>
+            <Image
+              className='hover:scale-110 transition duration-500'
+              src={image}
+              alt='problem'
+              layout='fill'
+              objectFit='cover'
+              objectPosition='center'
+            />
+          </div>
+          <div id='title' className='absolute w-full bg-zinc-800/75'>
+            <h2 className='p-6 text-white text-3xl 2xl:text-4xl uppercase'>
+              {title}
+            </h2>
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

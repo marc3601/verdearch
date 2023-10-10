@@ -9,10 +9,10 @@ export default function Home() {
     <div>
       <Main />
       <About />
-      <div className='pt-2.5	'>
-        <Badge title='W czym problem ?' image={whatIsProblem} />
-        <Badge title='Dlaczego VERDE Arch ?' image={verde} side='left' />
-        <Badge title='Czym jest projekt biofiliczny ?' image={bio} />
+      <div className='p-2.5 bg-gray-800'>
+        <Badge title='W czym problem ?' image={whatIsProblem} href='/about' />
+        <Badge title='Czym jest projekt biofiliczny?' image={bio} href='/' />
+        <Badge title='Dlaczego Verde architektura?' image={verde} href='/' />
       </div>
     </div>
   );
