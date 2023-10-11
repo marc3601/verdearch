@@ -1,6 +1,7 @@
-import Image from "next/image";
 import React from "react";
 import koszty from "public/images/koszty.jpg";
+import degradacja from "public/images/degrade.jpg";
+import TextInlineImage from "../components/TextInlineImage";
 const Content = () => {
   return (
     <div className='container mx-auto w-3/4 xl:w-1/2 mt-4 mb-4'>
@@ -38,6 +39,8 @@ const Content = () => {
         problemami z wątrobą i wad wrodzonych.
       </p>
       <br></br>
+      <TextInlineImage image={degradacja} desc='Degradacja środowiska' />
+      <br></br>
       <h2 className='font-bold text-xl'>2. Wysokie koszty utrzymania</h2>
       <br></br>
       <p>
@@ -47,7 +50,7 @@ const Content = () => {
         cenami energii
       </p>
       <br></br>
-      <Image src={koszty} alt='koszty' className='w-1/2' />
+      <TextInlineImage image={koszty} />
     </div>
   );
 };

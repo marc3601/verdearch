@@ -25,11 +25,11 @@ const Main = () => {
           </h1>
         </div>
 
-        <div className='relative flex justify-around items-center bg-lime-100/40	'>
-          <div id='image_container'>
+        <div className='relative p-4 flex-row md:flex justify-around items-center bg-lime-100/50	'>
+          <div id='image_container' className='flex justify-center'>
             <Image
               className='relative z-0'
-              width={180}
+              width={150}
               src={seal}
               alt='logo'
               priority
@@ -47,7 +47,7 @@ const Main = () => {
           <div id='image_container'>
             <Image
               className='relative z-0 invisible'
-              width={180}
+              width={150}
               src={logo}
               alt='logo'
             />
@@ -56,7 +56,7 @@ const Main = () => {
         <div className='relative p-10 mt-12 container mx-auto'>
           <h1 className='2xl:text-5xl xl:text-4xl text-3xl pb-5'>
             Design który Wspiera Twoje Zdrowie i Harmonie w Zgodzie<br></br> z
-            Naturą .
+            Naturą.
           </h1>
           <p className='2xl:text-2xl text-xl '>
             Pomysl, ze przestrzeń w której przebywasz wspierają twój rozwój,

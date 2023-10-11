@@ -5,7 +5,7 @@ import logo from "public/images/logo_black.png";
 const Navbar = () => {
   return (
     <div id='navbar'>
-      <Link href='/'>
+      <Link href='/' className='inline-block'>
         <Image src={logo} alt='logo' width={170} />
       </Link>
     </div>

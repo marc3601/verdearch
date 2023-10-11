@@ -4,17 +4,25 @@ import logo from "public/images/logo.png";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <div className='p-3 bg-gray-700 flex items-center justify-between'>
-      <div id='logo'>
+    <div className='p-3 bg-gray-700 flex-row md:flex md:items-center'>
+      <div id='logo' className='flex justify-center'>
         <Image src={logo} alt='logo' width={130} />
       </div>
-      <div id='socials'>
-        <SocialIcon className='cursor-pointer' network='facebook' />
-        <SocialIcon className='cursor-pointer ml-2' network='x' />
-        <SocialIcon className='cursor-pointer ml-2' network='instagram' />
+      <div id='email' className='flex justify-center'>
+        <SocialIcon
+          className='cursor-pointer'
+          style={{ height: 35, width: 35 }}
+          network='email'
+        />
+        <p className='p-2 text-xs text-white'>office@verdearch.com</p>
       </div>
-      <div id='phone' className='text-white'>
-        <p>+48 888 888 888</p>
+      <div id='phone' className='flex justify-center'>
+        <SocialIcon
+          className='cursor-pointer'
+          style={{ height: 35, width: 35 }}
+          network='whatsapp'
+        />
+        <p className='p-2 text-xs text-white'>+48 502 030 392</p>
       </div>
     </div>
   );

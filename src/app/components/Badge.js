@@ -21,7 +21,7 @@ const Badge = ({ title, image, href }) => {
             />
           </div>
           <div id='title' className='absolute w-full bg-zinc-800/75'>
-            <h2 className='p-6 text-white text-3xl 2xl:text-4xl uppercase'>
+            <h2 className='p-6 text-white text-2xl 2xl:text-4xl uppercase'>
               {title}
             </h2>
           </div>
