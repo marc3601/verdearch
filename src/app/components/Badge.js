@@ -15,6 +15,7 @@ const Badge = ({ title, image, href }) => {
               className='hover:scale-110 transition duration-500'
               src={image}
               alt='problem'
+              placeholder='blur'
               layout='fill'
               objectFit='cover'
               objectPosition='center'

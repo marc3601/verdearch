@@ -8,6 +8,7 @@ const Banner = ({ image, title }) => {
         <Image
           src={image}
           alt={title}
+          placeholder='blur'
           layout='fill'
           objectFit='cover'
           objectPosition='center'
