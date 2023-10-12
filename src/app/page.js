@@ -2,6 +2,7 @@ import whatIsProblem from "public/images/problem.jpeg";
 import bio from "public/images/biofiliczny.jpg";
 import verde from "public/images/dlaczego.jpg";
 import konsultacja from "public/images/konsultacja.jpg";
+import korzysci from "public/images/korzysci.jpeg";
 import Badge from "./components/Badge";
 import Main from "./components/Main";
 import About from "./components/About";
@@ -12,14 +13,14 @@ export default function Home() {
       <About />
       <div className='p-2.5 bg-gray-800'>
         <Badge
-          title='W czym problem ?'
+          title='W czym problem?'
           image={whatIsProblem}
           href='/w_czym_problem'
         />
         <Badge
-          title='Projekt i konsultacja.'
-          image={konsultacja}
-          href='/projekt_i_konsultacja'
+          title='Dlaczego Verde architektura?'
+          image={verde}
+          href='/dlaczego-verde'
         />
         <Badge
           title='Czym jest projekt biofiliczny?'
@@ -27,9 +28,14 @@ export default function Home() {
           href='/biofilia'
         />
         <Badge
-          title='Dlaczego Verde architektura?'
-          image={verde}
-          href='/dlaczego-verde'
+          title='Projekt i konsultacja.'
+          image={konsultacja}
+          href='/projekt_i_konsultacja'
+        />
+        <Badge
+          title='Korzyści dla różnych sektorów.'
+          image={korzysci}
+          href='/korzysci'
         />
       </div>
     </div>

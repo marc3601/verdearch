@@ -4,8 +4,8 @@ import Link from "next/link";
 const Badge = ({ title, image, href }) => {
   return (
     <Link href={href}>
-      <div className='container w-11/12 2xl:w-2/3 mx-auto py-4'>
-        <div className='flex h-64 2xl:h-80 relative cursor-pointer'>
+      <div className='container w-11/12 2xl:w-3/5 mx-auto py-4'>
+        <div className='flex h-64  relative cursor-pointer'>
           <div
             id='image'
             className='grow relative overflow-hidden 
@@ -22,9 +22,7 @@ const Badge = ({ title, image, href }) => {
             />
           </div>
           <div id='title' className='absolute w-full bg-zinc-800/75'>
-            <h2 className='p-6 text-white text-2xl 2xl:text-4xl uppercase'>
-              {title}
-            </h2>
+            <h2 className='p-6 text-white text-2xl  uppercase'>{title}</h2>
           </div>
         </div>
       </div>
