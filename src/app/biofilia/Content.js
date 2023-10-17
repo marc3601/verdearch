@@ -5,10 +5,10 @@ import pyramid from "public/images/pyramid.jpg";
 import TextInlineImage from "../components/TextInlineImage";
 const Content = () => {
   return (
-    <div className='container	 mx-auto w-3/4 xl:w-1/2 mt-4 mb-4'>
+    <div className='container	mx-auto w-5/6 xl:w-1/2 mt-4 mb-4'>
       <h2 className='font-bold text-xl'>Biophilic Design</h2>
       <br></br>
-      <p>
+      <p className='text-sm md:text-base'>
         Dziś wszyscy jesteśmy zgodni, że zwierzęta żyjące w klatkach zoo nie
         mogą się zdrowo rozwijać, gdyż nie jest to ich naturalny ekosystem.
         <br></br>
@@ -21,7 +21,7 @@ const Content = () => {
       <br></br>
       <TextInlineImage image={zoo} />
       <br></br>
-      <p>
+      <p className='text-sm md:text-base'>
         <b>
           Bioróżnorodność w miastach i miasteczkach jest sukcesywnie
           eliminowana, a nowoczesne budynki i wnętrza są hiper sterylne i
@@ -47,7 +47,7 @@ const Content = () => {
       <br></br>
       <TextInlineImage image={fractals} />
       <br></br>
-      <p>
+      <p className='text-sm md:text-base'>
         <b>Biofilia w architekturze i projektowaniu wnętrz</b> ma na celu
         <b>przywrócenie harmonii między człowiekiem i naturą</b> dzięki
         bezpośredniemu wprowadzeniu elementów naturalnych oraz pośredniemu
@@ -61,7 +61,7 @@ const Content = () => {
       <br></br>
       <p className='underline'>Zobacz korzyści dla poszczególnych sektorów.</p>
       <br></br>
-      <p>
+      <p className='text-sm md:text-base'>
         Budynki i wnętrza powinny odzwierciedlać różnorodność lokalnych
         ekosystemów, brać pod uwagę klimat, naturalny cykl dnia i nocy, oraz
         zmieniające się pory roku.<br></br>
@@ -72,19 +72,17 @@ const Content = () => {
         podzielonych na trzy główne filary:
       </p>
       <br></br>
-      <ul className='list-disc pl-4'>
+      <ul className='list-disc pl-4 text-sm md:text-base'>
         <li>Bezpośredni kontakt z naturą (7 założeń).</li>
         <li>Pośredni kontakt z naturą (3 założenia).</li>
         <li>Relacja między człowiekiem a przestrzenią (4 założenia).</li>
       </ul>
       <br></br>
-      <TextInlineImage image={pyramid} />
+      <TextInlineImage
+        image={pyramid}
+        desc='Tim Beatley (2012) Exploring the Nature Pyramid'
+      />
       <br></br>
-      <p>
-        Tim Beatley (2012).{" "}
-        <span className='underline'>Exploring the Nature Pyramid</span>. The
-        Nature of Cities.
-      </p>
     </div>
   );
 };

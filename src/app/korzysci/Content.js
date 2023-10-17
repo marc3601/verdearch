@@ -8,15 +8,15 @@ import handel from "public/images/handel.webp";
 import TextAndImage from "../components/TextAndImage";
 const Content = () => {
   return (
-    <div className='container mx-auto w-3/4 xl:w-1/2 mt-4 mb-4'>
+    <div className='container	mx-auto w-5/6 xl:w-1/2 mt-4 mb-4'>
       <br></br>
       <h2 className='font-bold text-xl'>
         WPŁYW PROJEKTU BIOFILICZNEGO NA RÓŻNE SEKTORY.
       </h2>
       <br></br>
-      <p>
+      <p className='text-sm md:text-base pb-4'>
         Raport Global Human Spaces Report wykazał, że 33% pracowników biurowych
-        przyznaje, że warunki pracy w biurze  mają wpływ na ich decyzje o
+        przyznaje, że warunki pracy w biurze mają wpływ na ich decyzje o
         podjęciu pracy w firmie. Warunki pracy i estetyka są jeszcze ważniejsze
         w sektorach takich jak hotelarstwo, mieszkalnictwo i handel detaliczny.
       </p>

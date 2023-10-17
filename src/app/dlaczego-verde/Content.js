@@ -7,10 +7,9 @@ import cert2 from "public/images/cert2.jpg";
 import TextInlineImage from "../components/TextInlineImage";
 const Content = () => {
   return (
-    <div className='container	 mx-auto w-3/4 xl:w-1/2 mt-4 mb-4'>
-      {/* <h2 className='font-bold text-xl'>Biophilic Design</h2> */}
+    <div className='container	 mx-auto w-5/6 xl:w-1/2 mt-4 mb-4'>
       <br></br>
-      <p>
+      <p className='text-sm md:text-base'>
         Poprzez{" "}
         <b>
           zintegrowanie technologii budownictwa pasywnego i wiedzy z dziedziny
@@ -26,9 +25,9 @@ const Content = () => {
         lub tez pomoże Ci się <b>zrelaksować i zregenerować.</b>
       </p>{" "}
       <br></br>
-      <TextInlineImage image={passive} />
+      <TextInlineImage image={passive} large />
       <br></br>
-      <p>
+      <p className='text-sm md:text-base'>
         Po 30 latach badań dane jasno stwierdzają, że już godzina intensywnego
         przebywania z naturą może{" "}
         <b>zwiększyć produktywność o 20% a poziom stresu spada o 60%</b>
@@ -45,7 +44,7 @@ const Content = () => {
       <br></br>
       <TextInlineImage image={smart} />
       <br></br>
-      <p>
+      <p className='text-sm md:text-base'>
         {" "}
         Dużą uwagę przywiązuje też do{" "}
         <b>jakości i pochodzenia materiałów budowlanych</b> i wykończeniowych.

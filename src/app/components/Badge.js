@@ -5,7 +5,7 @@ const Badge = ({ title, image, href }) => {
   return (
     <Link href={href}>
       <div className='container w-11/12 2xl:w-3/5 mx-auto py-4'>
-        <div className='flex h-40 lg:h-64  relative cursor-pointer'>
+        <div className='flex h-40 lg:h-64 relative cursor-pointer'>
           <div
             id='image'
             className='grow relative overflow-hidden 

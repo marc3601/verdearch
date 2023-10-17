@@ -5,10 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className='p-8 bg-gray-700 flex md:items-center justify-between sm:justify-start'>
+    <div className='p-4 bg-gray-700 flex md:items-center justify-center sm:justify-start'>
       <div id='logo' className='flex'>
         <Link href='/' className='inline-block'>
-          <Image src={logo} alt='logo' width={70} />
+          <Image src={logo} alt='logo' width={60} />
         </Link>
       </div>
       <div id='contacts' className='flex-row sm:flex sm:items-center px-2'>

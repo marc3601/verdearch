@@ -5,12 +5,14 @@ import TextInlineImage from "./TextInlineImage";
 const TextAndImage = ({ image, title, list = [], even }) => {
   return (
     <>
-      <br></br>
       <div className='flex-row md:flex'>
         <div className={`pr-3 pl-3 md:w-96 ${even && "order-last"}`}>
           <h3 className='uppercase font-bold'>{title}</h3>
           <br></br>
-          <ul className={`list-disc ${even ? "pl-6" : "pl-4"} pb-4 md:pb-0`}>
+          <ul
+            className={`list-disc ${
+              even ? "pl-6" : "pl-4"
+            } pb-4 md:pb-0 text-sm md:text-base 2xl:text-xl`}>
             {list &&
               list.map((item, index) => {
                 return <li key={index}>{item}</li>;
