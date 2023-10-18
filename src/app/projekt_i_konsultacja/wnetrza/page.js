@@ -1,9 +1,7 @@
 import React from "react";
 import interior from "public/images/WNETRZA.jpeg";
-
+import banner from "public/images/interior_banner.jpeg";
 import Banner from "@/app/components/Banner";
-import banner from "public/images/projekt_banner.jpg";
-
 import TextInlineImage from "../../components/TextInlineImage";
 import Navbar from "@/app/components/Navbar";
 const page = () => {

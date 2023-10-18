@@ -3,9 +3,13 @@ import bio from "public/images/biofiliczny.jpg";
 import verde from "public/images/dlaczego.jpg";
 import konsultacja from "public/images/konsultacja.jpg";
 import korzysci from "public/images/korzysci.jpeg";
+import blog from "public/images/blog.jpg";
+import projects from "public/images/projects.jpg";
+import about from "public/images/about_me.jpg";
 import Badge from "./components/Badge";
 import Main from "./components/Main";
 import About from "./components/About";
+import OfferLink from "./components/OfferLink";
 export default function Home() {
   return (
     <div>
@@ -37,6 +41,31 @@ export default function Home() {
           image={korzysci}
           href='/korzysci'
         />
+      </div>
+      <div className='bg-gray-600'>
+        <div className='sm:flex justify-center items-center container w-11/12 2xl:w-3/5 mx-auto py-4'>
+          <OfferLink
+            title='O mnie'
+            link='/'
+            image={about}
+            background
+            width={300}
+          />
+          <OfferLink
+            title='Projekty'
+            link='/'
+            image={projects}
+            background
+            width={300}
+          />
+          <OfferLink
+            title='Blog'
+            link='/'
+            image={blog}
+            background
+            width={300}
+          />
+        </div>
       </div>
     </div>
   );

@@ -1,8 +1,7 @@
 import React from "react";
 import arch from "public/images/ARCHITEKTURA.jpg";
+import banner from "public/images/arch_banner.jpeg";
 import Banner from "@/app/components/Banner";
-import banner from "public/images/projekt_banner.jpg";
-
 import TextInlineImage from "../../components/TextInlineImage";
 import Navbar from "@/app/components/Navbar";
 const page = () => {
