@@ -62,11 +62,6 @@ const Content = () => {
         <b>Chcesz wiedzieć więcej? Zadzwoń 502030392</b>
       </p>
       <br></br>
-      <div className='lg:flex'>
-        <TextInlineImage image={cert1} />
-        <TextInlineImage image={cert2} />
-      </div>
-      <br></br>
     </div>
   );
 };

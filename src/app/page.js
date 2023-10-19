@@ -46,14 +46,14 @@ export default function Home() {
         <div className='sm:flex justify-center items-center container w-11/12 2xl:w-3/5 mx-auto py-4'>
           <OfferLink
             title='O mnie'
-            link='/'
+            link='/o-mnie'
             image={about}
             background
             width={300}
           />
           <OfferLink
             title='Projekty'
-            link='/'
+            link='/projekty'
             image={projects}
             background
             width={300}
