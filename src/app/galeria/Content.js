@@ -1,4 +1,4 @@
-import Image from "next/image";
+"use client";
 import React from "react";
 import img1 from "public/slides/1.jpg";
 import img2 from "public/slides/2.jpg";
@@ -13,25 +13,30 @@ import img10 from "public/slides/10.jpg";
 import img11 from "public/slides/11.jpg";
 import GalleryImage from "../components/GalleryImage";
 const Content = () => {
+  const images = [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+  ];
   return (
     <div className='relative min-h-screen sm:min-h-[calc(100vh-177px)] bg-gray-800 overflow-hidden	'>
       <div>
         <h1 className='p-4 text-4xl text-center text-white uppercase bg-gray-600'>
-          Projekty
+          Galeria
         </h1>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 p-10'>
-        <GalleryImage image={img1} />
-        <GalleryImage image={img2} />
-        <GalleryImage image={img3} />
-        <GalleryImage image={img4} />
-        <GalleryImage image={img5} />
-        <GalleryImage image={img6} />
-        <GalleryImage image={img7} />
-        <GalleryImage image={img8} />
-        <GalleryImage image={img9} />
-        <GalleryImage image={img10} />
-        <GalleryImage image={img11} />
+        {images.map((image, id) => {
+          return <GalleryImage key={id} image={image} />;
+        })}
       </div>
     </div>
   );
