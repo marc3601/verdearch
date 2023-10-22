@@ -8,7 +8,7 @@ const page = () => {
   return (
     <>
       <Navbar localeEN />
-      <Banner image={banner} title='Wnętrza' />
+      <Banner image={banner} title='Interiors' />
       <div className='container	mx-auto w-5/6 xl:w-1/2 mt-4 mb-4'>
         <br></br>
         <p className='text-sm md:text-base'>

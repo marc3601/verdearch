@@ -3,6 +3,7 @@ import zoo from "public/images/zoo.jpg";
 import fractals from "public/images/fractals.png";
 import pyramid from "public/images/pyramid.jpg";
 import TextInlineImage from "../components/TextInlineImage";
+import Link from "next/link";
 const Content = () => {
   return (
     <div className='container	mx-auto w-5/6 xl:w-1/2 mt-4 mb-4'>
@@ -66,7 +67,10 @@ const Content = () => {
         </b>
       </p>
       <br></br>
-      <p className='underline'>Zobacz korzyści dla poszczególnych sektorów.</p>
+      <Link href='/korzysci' className='underline'>
+        Zobacz korzyści dla poszczególnych sektorów.
+      </Link>{" "}
+      <br></br>
       <br></br>
       <p className='text-sm md:text-base'>
         Budynki i wnętrza powinny odzwierciedlać różnorodność lokalnych

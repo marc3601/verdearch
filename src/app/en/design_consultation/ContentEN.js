@@ -2,6 +2,8 @@ import React from "react";
 import wne from "public/images/wnelink.jpeg";
 import arch from "public/images/archlink.jpeg";
 import OfferLink from "../../components/OfferLink";
+import Link from "next/link";
+
 const Content = () => {
   return (
     <>
@@ -16,9 +18,9 @@ const Content = () => {
           lifestyle, and budget.
         </p>
         <br></br>
-        <span className='underline'>
+        <Link href='/en/benefits' className='underline'>
           See the benefits for each sector.
-        </span>{" "}
+        </Link>{" "}
       </div>
       <div className='container sm:flex justify-center items-center  mx-auto mt-4 mb-4 p-6'>
         <OfferLink

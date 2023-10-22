@@ -3,6 +3,7 @@ import passive from "public/images/passive.jpg";
 import smart from "public/images/smart.jpeg";
 
 import TextInlineImage from "../components/TextInlineImage";
+import Link from "next/link";
 const Content = () => {
   return (
     <div className='container	 mx-auto w-5/6 xl:w-1/2 mt-4 mb-4'>
@@ -52,9 +53,9 @@ const Content = () => {
         <b>pozyskiwane z odpowiedzialnych źródeł i bezpieczne dla zdrowia.</b>{" "}
         <br></br>
         <br></br>
-        <span className='underline'>
+        <Link href='/korzysci' className='underline'>
           Zobacz korzyści dla poszczególnych sektorów.
-        </span>{" "}
+        </Link>{" "}
         <br></br>
         <br></br>
         <b>Chcesz wiedzieć więcej? Zadzwoń 502030392</b>

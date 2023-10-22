@@ -1,8 +1,8 @@
 import React from "react";
 import passive from "public/images/passive.jpg";
 import smart from "public/images/smart.jpeg";
-
 import TextInlineImage from "../../components/TextInlineImage";
+import Link from "next/link";
 const Content = () => {
   return (
     <div className='container	 mx-auto w-5/6 xl:w-1/2 mt-4 mb-4'>
@@ -39,9 +39,9 @@ const Content = () => {
         consider their product&#39;s lifecycle.
         <br></br>
         <br></br>
-        <span className='underline'>
+        <Link href='/en/benefits' className='underline'>
           See the benefits for each sector.
-        </span>{" "}
+        </Link>{" "}
         <br></br>
         <br></br>
         <b>Want to know more? Call 502030392</b>
