@@ -7,9 +7,7 @@ const Footer = () => {
   return (
     <div className='p-4 bg-gray-700 flex md:items-center justify-center sm:justify-start'>
       <div id='logo' className='flex'>
-        <Link href='/' className='inline-block'>
-          <Image src={logo} alt='logo' width={60} />
-        </Link>
+        <Image src={logo} alt='logo' width={60} />
       </div>
       <div id='contacts' className='flex-row sm:flex sm:items-center px-2'>
         <div id='email' className='flex pb-2 sm:p-0 sm:ml-2'>
