@@ -10,30 +10,50 @@ const Content = () => {
       </h2>
       <br></br>
       <p className='text-sm md:text-base'>
-        Nasz gatunek ewoluował jako integralna część środowiska naturalnego.
-        Kontakt z przyroda i naturalnymi procesami jest niezbędny dla naszego
-        dobrostanu psychofizycznego. Jednak, w krajach rozwiniętych ludzie
-        spędzają 90% czasu w zamkniętych pomieszczeniach gdzie:
+        <b>
+          Nasz gatunek ewoluował jako integralna część środowiska
+          naturalnego.&nbsp;
+        </b>
+        Kontakt z przyrodą i naturalnymi procesami jest niezbędny dla naszego
+        dobrostanu psychofizycznego.<br></br>
+        <br></br>Jednak,{" "}
+        <b>
+          w krajach rozwiniętych ludzie spędzają 90% czasu w zamkniętych
+          pomieszczeniach
+        </b>{" "}
+        gdzie:
       </p>
       <br></br>
       <ul className='list-disc pl-4 text-sm md:text-base'>
-        <li>Jakość powietrza jest zla, (w ponad 90% budynków tradycyjnych).</li>
         <li>
-          Naturalne oświetlenie jest niewystarczające a sztuczne jest
-          nieodpowiednio dobrane
+          <b>Jakość powietrza jest zła</b> w ponad 90% budynków tradycyjnych.
         </li>
-        <li>Brakuje elementów i materiałów naturalnych oraz roślin.</li>
+        <li>
+          <b>
+            Naturalne oświetlenie jest niewystarczające a sztuczne jest
+            nieodpowiednio dobrane
+          </b>
+        </li>
+        <li>
+          <b>Brakuje elementów i materiałów naturalnych oraz roślin.</b>
+        </li>
       </ul>
       <br></br>
       <p className='text-sm md:text-base'>
         Negatywny wpływ na jakość powietrza wewnątrz budynków ma gromadzenie się
-        toksyn i lotnych związków organicznych uwalnianych, miedzy innymi z
+        toksyn i lotnych związków organicznych uwalnianych, między innymi z
         materiałów budowlanych, wykończeniowych, mebli, czy dywanów.
         Jednocześnie coraz wyższa szczelność budynków, mająca na celu
         zminimalizowanie strat ciepła, przy jednoczesnym braku prawidłowo
-        dobranego systemu wentylacji sprzyja problemom z fizyką budynku i
-        powstawaniu pleśni i grzybów. Czynniki te negatywie wpływają na nasze
-        samopoczucie i mogą prowadzić do “syndromu chorego budynku”
+        dobranego systemu wentylacji, sprzyja problemom z fizyką budynku i
+        powstawaniu pleśni i grzybów.
+        <br></br>
+        <br></br>
+        Czynniki te{" "}
+        <b>
+          negatywie wpływają na nasze samopoczucie i mogą prowadzić do
+          &quot;syndromu chorego budynku&quot;
+        </b>{" "}
         objawiającego się bólami głowy, podrażnieniami nosa i oczu, alergiami,
         rozwojem chorób autoimmunologicznych, zmęczeniem, depresją, a nawet
         problemami z wątrobą i wad wrodzonych.
@@ -42,13 +62,29 @@ const Content = () => {
       <h2 className='font-bold text-xl'>2. Wysokie koszty utrzymania</h2>
       <br></br>
       <p className='text-sm md:text-base'>
-        Posiadanie domu stanowiło dotychczas gwarancja bez- pieczeństwa i
+        Posiadanie domu stanowiło dotychczas gwarancja bezpieczeństwa i
         niezależności i od czynników zewnętrznych. Obecnie jednak, koszty
-        utrzymania budynkow wzrosły drastycznie co związane jest z rosnącymi
-        cenami energii
+        utrzymania budynku wzrosły drastycznie co związane jest z rosnącymi
+        <b>
+          &nbsp;cenami energii i niestabilną sytuacją geopolityczna co sprawia,
+          że nasz budżet jest ściśle uzależniony od sytuacji globalnej.
+        </b>
       </p>
       <br></br>
       <TextInlineImage image={koszty} />
+      <br></br>
+      <p className='text-sm md:text-base'>
+        Przy nieodpowiednio zaprojektowanej lub źle zmodernizowanej powłoce
+        budynku, zapotrzebowanie energetyczne pozostaje bardzo wysokie a zakup
+        paneli fotowoltaicznych lub zmiana źródła ciepła mogą okazać się
+        kosztowną inwestycją, niewspółmierną do osiągniętych korzyści.
+        <br></br>
+        <br></br>
+        Dodatkowo, ambitne standardy UE zawarte w Pakiecie Fit for 55 sprawiają,
+        że musimy jak najszybciej dostosować technologie budowlane do nowych
+        limitów, gdyż „tradycyjne” budynki będą w znacznym stopniu tracić na
+        wartości.
+      </p>
       <br></br>
       <h2 className='font-bold text-xl'>
         3. Degradacja środowiska naturalnego.

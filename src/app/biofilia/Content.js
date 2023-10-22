@@ -8,14 +8,21 @@ const Content = () => {
     <div className='container	mx-auto w-5/6 xl:w-1/2 mt-4 mb-4'>
       <h2 className='font-bold text-xl'>Biophilic Design</h2>
       <br></br>
+      <p className='italic text-sm text-center'>
+        Biofilia - Wrodzona miłość do życia i istot żywych. (1973 Eric Fromm)
+      </p>
+      <br></br>
       <p className='text-sm md:text-base'>
         Dziś wszyscy jesteśmy zgodni, że zwierzęta żyjące w klatkach zoo nie
         mogą się zdrowo rozwijać, gdyż nie jest to ich naturalny ekosystem.
         <br></br>
         <br></br>Zaakceptowaliśmy jednak, że życie w zabetonowanych miastach
-        jest dla człowieka &quot;normą&quot;, pomimo że w historii ludzkości
-        przez tysiące lat byliśmy integralną częścią środowiska naturalnego, a
-        dopiero od czasów rewolucji przemysłowej weszliśmy na ścieżkę szybkiej
+        jest dla człowieka &quot;normą&quot;, pomimo że w historii{" "}
+        <b>
+          ludzkości przez tysiące lat byliśmy integralną częścią środowiska
+          naturalnego,
+        </b>{" "}
+        a dopiero od czasów rewolucji przemysłowej weszliśmy na ścieżkę szybkiej
         separacji od świata przyrody.
       </p>
       <br></br>

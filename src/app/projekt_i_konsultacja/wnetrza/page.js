@@ -1,5 +1,5 @@
 import React from "react";
-import interior from "public/images/WNETRZA.jpeg";
+import interior from "public/slides/8.jpeg";
 import banner from "public/images/interior_banner.jpeg";
 import Banner from "@/app/components/Banner";
 import TextInlineImage from "../../components/TextInlineImage";
@@ -10,8 +10,7 @@ const page = () => {
       <Navbar />
       <Banner image={banner} title='Wnętrza' />
       <div className='container	mx-auto w-5/6 xl:w-1/2 mt-4 mb-4'>
-        <h2 className='font-bold text-xl'>Wnętrza</h2>
-
+        <br></br>
         <p className='text-sm md:text-base'>
           <b>
             {" "}
@@ -76,11 +75,15 @@ const page = () => {
         <p>W ramach pakietu otrzymasz:</p>
         <ul className='list-disc pl-4 text-sm md:text-base'>
           <li>
-            projekt koncepcyjny + spersonalizowany dobór materiałów i mebli wraz
+            projekt koncepcyjny + spersonalizowany dobór materiałów i mebli wraz
             z cenami,
           </li>
           <li>
             rysunek detali konstrukcyjnych i wykończeniowych dla wykonawców.
+          </li>
+          <li>
+            pomoc w doborze ekipy remontowej i ustalenia dotycząca wymaganych
+            prac.
           </li>
         </ul>
         <br></br>

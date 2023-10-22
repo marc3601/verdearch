@@ -7,7 +7,8 @@ const About = () => {
         <p className='text-base 2xl:text-xl 2xl:leading-8	pb-4'>
           <b>
             Jako specjalista w dziedzinie architektury zrównoważonej i
-            biofilicznej oraz akredytowany Mistrz Budownictwa Pasywnego
+            Biofilicznej, zwanej także Biofilną (Biophilic Design), oraz
+            akredytowany Mistrz Budownictwa Pasywnego,
           </b>{" "}
           wyznaje <b>holistyczne podejście do architektury</b> aby stworzyć
           niepowtarzalne miejsce do życia i pracy, które poprawi twój{" "}
@@ -28,6 +29,10 @@ const About = () => {
             <b>Ekologia</b> - Ograniczyć ślad ekologiczny i chronić środowisko.
           </li>
         </ul>
+        <br></br>
+        <p className='text-base 2xl:text-xl 2xl:leading-8	pb-4'>
+          Chcesz wiedzieć więcej? Zadzwoń 502030392
+        </p>
       </div>
     </div>
   );

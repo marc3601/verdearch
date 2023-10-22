@@ -2,17 +2,14 @@
 import React, { useEffect, useState } from "react";
 import TextInlineImage from "./TextInlineImage";
 
-const TextAndImage = ({ image, title, list = [], even }) => {
+const TextAndImage = ({ image, title, list = [] }) => {
   return (
     <>
       <div className='flex-row md:flex'>
-        <div className={`pr-3 pl-3 md:w-96 ${even && "order-last"}`}>
+        <div className='pr-3 pl-3 md:w-96 order-last'>
           <h3 className='uppercase font-bold'>{title}</h3>
           <br></br>
-          <ul
-            className={`list-disc ${
-              even ? "pl-6" : "pl-4"
-            } pb-4 md:pb-0 text-sm md:text-base 2xl:text-xl`}>
+          <ul className='list-disc pl-6 pb-4 md:pb-0 text-sm md:text-base'>
             {list &&
               list.map((item, index) => {
                 return <li key={index}>{item}</li>;

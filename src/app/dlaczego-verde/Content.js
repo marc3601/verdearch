@@ -1,8 +1,6 @@
 import React from "react";
 import passive from "public/images/passive.jpg";
 import smart from "public/images/smart.jpeg";
-import cert1 from "public/images/cert1.jpg";
-import cert2 from "public/images/cert2.jpg";
 
 import TextInlineImage from "../components/TextInlineImage";
 const Content = () => {
@@ -30,7 +28,7 @@ const Content = () => {
       <p className='text-sm md:text-base'>
         Po 30 latach badań dane jasno stwierdzają, że już godzina intensywnego
         przebywania z naturą może{" "}
-        <b>zwiększyć produktywność o 20% a poziom stresu spada o 60%</b>
+        <b>zwiększyć produktywność o 20% a poziom stresu spada o 60% </b>
         gdy mamy kontakt z naturalnymi materiałami i fraktalnymi motywami.
         <br></br>
         <br></br>

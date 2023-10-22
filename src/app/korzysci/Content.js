@@ -28,7 +28,6 @@ const Content = () => {
           "Wyższa frekwencja o około 3,5 dnia / rok.",
           "Poprawa wyników testów o 5-14%.",
         ]}
-        even
       />
       <TextAndImage
         image={zdrowie}
@@ -38,7 +37,6 @@ const Content = () => {
           "Niższy poziom lęku oraz obniżona percepcja bólu.",
           "Dostęp światła słonecznego minimalizuje odczuwanie bólu po operacji i wpływa na zmniejszenie dawki leków przeciwbólowych o 22%.",
         ]}
-        even
       />
       <TextAndImage
         image={rekreacja}
@@ -47,7 +45,6 @@ const Content = () => {
           "Goście są gotowi zapłacić o 23% wyższe stawki, jeśli mają wysokiej jakości widok.",
           "Goście spędzają o 36% więcej czasu w hotelowym lobby i korzystają częściej z serwisu hotelowego.",
         ]}
-        even
       />
       <TextAndImage
         image={handel}
@@ -56,7 +53,6 @@ const Content = () => {
           "Odwiedzający spędzają więcej czasu i częściej przebywają w przestrzeniach handlowych.",
           "Towary wyglądają na bardziej wartościowe i estetyczne.",
         ]}
-        even
       />
       <TextAndImage
         image={praca}
@@ -69,7 +65,6 @@ const Content = () => {
           "Zwiększenie testu pamięci o 10-25%.",
           "Zmniejszenie przewlekłego zmęczenia i absencji o 15%.",
         ]}
-        even
       />
       <TextAndImage
         image={dom}
@@ -81,7 +76,6 @@ const Content = () => {
           "Wzrost wartości nieruchomości.",
           "Zmniejszenie przestępczości i zachowań agresywnych (okolica).",
         ]}
-        even
       />
     </div>
   );

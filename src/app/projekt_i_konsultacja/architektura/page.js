@@ -93,7 +93,7 @@ const page = () => {
           <b>Pakiet:  PASSIVE BIO:</b>
         </p>
         <br></br>
-        <ul className='list-disc pl-4 text-sm md:text-base'>
+        <ul className='list-disc pl-4 text-sm md:text-base 2xl:text-xl '>
           <li>
             <b>Konsultacja:</b>
           </li>
@@ -139,18 +139,22 @@ const page = () => {
             producentów.
           </li>
           <li>Rekomendacja profesjonalnych i lokalnych firm wykonawczych.</li>
-          <li>
-            <b>Projekt kompleksowy:</b> po zapoznaniu się z priorytetami i
-            oczekiwaniami inwestora wykonamy projekt inwestycji, poprzedzony
-            pełną analizą oraz wyznaczeniem celów energetycznych.{" "}
-            <b>
-              To od Twojej decyzji zależy czy projekt ma być certyfikowanym
-              Budynkiem Pasywnym, niskoenergetycznym, czy zero-energetycznym i
-              do jakiego stopnia elementy Biofiliczne/Biofilne (Biophilic
-              Design) mają być integralną częścią  inwestycji.
-            </b>
-          </li>
         </ul>
+        <br></br>
+        <p className='text-sm md:text-base'>
+          <span className='underline'>
+            <b>Projekt kompleksowy: </b>
+          </span>
+          Po zapoznaniu się z priorytetami i oczekiwaniami inwestora wykonamy
+          projekt inwestycji, poprzedzony pełną analizą oraz wyznaczeniem celów
+          energetycznych.{" "}
+          <b>
+            To od Twojej decyzji zależy czy projekt ma być certyfikowanym
+            Budynkiem Pasywnym, niskoenergetycznym, czy zero-energetycznym i do
+            jakiego stopnia elementy Biofiliczne/Biofilne (Biophilic Design)
+            mają być integralną częścią  inwestycji.
+          </b>
+        </p>
         <br></br>
         <p className='text-green-800'>
           <b>Pakiet: THERMO</b>

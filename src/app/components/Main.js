@@ -27,7 +27,7 @@ const Main = () => {
           </h1>
         </div>
 
-        <div className='relative px-4 py-8 lg:py-12 flex-row md:flex justify-around items-center bg-lime-800/60	'>
+        <div className='relative px-4 py-8 lg:py-12 flex-row md:flex justify-around items-center bg-lime-800/30	'>
           <div id='image_container' className='flex justify-center '>
             <Image
               className='relative z-0 w-3/4 sm:w-1/2 md:w-full'
@@ -57,12 +57,12 @@ const Main = () => {
         </div>
         <div className='relative px-4 py-4 mt-2 md:px-10 container xl:w-3/4 mx-auto backdrop-blur-sm bg-white/10'>
           <h2 className='text-xl my-5 font-bold italic sm:text-2xl md:text-3xl lg:text-4xl '>
-            Design który Wspiera Twoje Zdrowie i Harmonię w Zgodzie z Naturą.
+            Design który Wspiera Zdrowie i Harmonię w Zgodzie z Naturą.
           </h2>
           <p className='text-base  xl:text-xl '>
-            Pomysl, ze przestrzeń w której przebywasz wspierają twój rozwój,
-            pomagają minimalizować stres oraz sprzyjają odzyskaniu równowagi.
-            Taki wpływ na człowieka ma kontakt z przyroda...
+            Pomyśl, że przestrzeń, w której przebywasz, wspiera twój rozwój,
+            pomaga minimalizować stres oraz sprzyja odzyskaniu równowagi. Taki
+            wpływ na człowieka ma kontakt z przyrodą…
           </p>
           <h3 className='text-xl lg:text-2xl 2xl:text-3xl mt-5 md:mt-8 font-bold italic text-lime-900	'>
             Wprowadź naturę do wnętrza!
