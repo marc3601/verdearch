@@ -7,7 +7,7 @@ import Content from "./Content";
 const page = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar localeEN />
       <Banner image={aboutme} title='About me' />
       <Content />
     </div>

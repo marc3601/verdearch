@@ -92,6 +92,7 @@ const Content = () => {
       <TextInlineImage
         image={pyramid}
         desc='Tim Beatley (2012) Exploring the Nature Pyramid'
+        large
       />
       <br></br>
     </div>

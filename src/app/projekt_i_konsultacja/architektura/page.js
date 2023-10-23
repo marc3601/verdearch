@@ -64,29 +64,33 @@ const page = () => {
         </p>
         <br></br>
         <ul className='list-disc pl-4 text-sm md:text-base'>
-          <li>Położenie geograficzne i kontekst lokalny.</li>
-          <li>Relacja między orientacją budynku a jego bryłą.</li>
-          <li>Planowanie przestrzeni i funkcjonalność, strefy termiczne.</li>
-          <li>
+          <li className='pb-2'>Położenie geograficzne i kontekst lokalny.</li>
+          <li className='pb-2'>
+            Relacja między orientacją budynku a jego bryłą.
+          </li>
+          <li className='pb-2'>
+            Planowanie przestrzeni i funkcjonalność, strefy termiczne.
+          </li>
+          <li className='pb-2'>
             Przeszklenia, widoki i relacja między wnętrzem a otoczeniem
             zewnętrznym.
           </li>
-          <li>
+          <li className='pb-2'>
             Wprowadzenie elementów naturalnych i użycie roślin jako integralnego
             elementu projektu.
           </li>
-          <li>
+          <li className='pb-2'>
             Materiały budowlane i wykończeniowe pochodzące z kontrolowanych
             źródeł i nieemitujące substancji szkodliwych dla zdrowia.
           </li>
-          <li>
+          <li className='pb-2'>
             Oświetlenie naturalne oraz sztuczne zróżnicowane w zależności od
             funkcji, oraz pory dnia.
           </li>
-          <li>Wysokiej jakości izolacja termiczna.</li>
-          <li>Szczelność powłoki budynku.</li>
-          <li>Przeszklenia termicznie izolujące.</li>
-          <li>Wentylacja mechaniczna z rekuperacją ciepła.</li>
+          <li className='pb-2'>Wysokiej jakości izolacja termiczna.</li>
+          <li className='pb-2'>Szczelność powłoki budynku.</li>
+          <li className='pb-2'>Przeszklenia termicznie izolujące.</li>
+          <li className='pb-2'>Wentylacja mechaniczna z rekuperacją ciepła.</li>
         </ul>
         <br></br>
         <p className='text-green-800'>
@@ -117,34 +121,41 @@ const page = () => {
           <b>Czego możesz oczekiwać:</b>
         </p>
         <br></br>
-        <ul className='list-disc pl-4 text-sm md:text-base'>
-          <li>
+        <ul className=' list-disc pl-4 text-sm md:text-base '>
+          <li className='pb-2'>
             Analiza i ocena obecnych rozwiązań: orientacja budynku, technologia
             i materiały.
           </li>
-          <li>Zdefiniowanie celów energetycznych i priorytetów inwestora.</li>
-          <li>
+          <li className='pb-2'>
+            Zdefiniowanie celów energetycznych i priorytetów inwestora.
+          </li>
+          <li className='pb-2'>
             Obliczenia i weryfikacja w programie do projektowania budynków
             pasywnych PHPP, oraz propozycja rozwiązań w celu maksymalizacji
             efektywności energetycznej.
           </li>
-          <li>
+          <li className='pb-2'>
             Analiza pod kątem 12 aspektów Biofilcznych i ewaluacja możliwości
             wprowadzenia rozwiązań.
           </li>
-          <li>
+          <li className='pb-2'>
             Pełne opracowanie wytycznych dla projektu: izolacja termiczna,
             szczelność powietrzna, system grzewczy i wentylacja, dobór
             materiałów, dobór roślin, rysunki detali dla wykonawców, lista
             producentów.
           </li>
-          <li>Rekomendacja profesjonalnych i lokalnych firm wykonawczych.</li>
+          <li className='pb-2'>
+            Rekomendacja profesjonalnych i lokalnych firm wykonawczych.
+          </li>
+        </ul>
+        <br></br>
+        <ul className='list-disc pl-4 text-sm md:text-base 2xl:text-xl '>
+          <li>
+            <b>Projekt kompleksowy:</b>
+          </li>
         </ul>
         <br></br>
         <p className='text-sm md:text-base'>
-          <span className='underline'>
-            <b>Projekt kompleksowy: </b>
-          </span>
           Po zapoznaniu się z priorytetami i oczekiwaniami inwestora wykonamy
           projekt inwestycji, poprzedzony pełną analizą oraz wyznaczeniem celów
           energetycznych.{" "}

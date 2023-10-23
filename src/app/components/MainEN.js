@@ -24,44 +24,37 @@ const Main = () => {
           <div className='flex justify-end'>
             <Link href='/'>
               <div className='cursor-pointer'>
-                <Image alt='pl' src={lang} />
+                <Image alt='uk' src={lang} />
               </div>
             </Link>
           </div>
-          <h2 className='text-2xl sm:text-3xl font-bold	relative'>
-            Joanna Maria Daoud
-          </h2>
-          <h1 className='text-xl sm:text-2xl relative'>
-            Sustainable and Biophilic Design Project Atelier.
-          </h1>
+
+          <div className='flex justify-between p-2'>
+            <div id='title' className='flex justify-center items-center'>
+              <div>
+                <h2 className='text-2xl sm:text-3xl font-bold	relative'>
+                  Joanna Maria Daoud
+                </h2>
+                <h1 className='text-xl sm:text-2xl relative'>
+                  Sustainable and Biophilic Design Project Atelier.
+                </h1>
+              </div>
+            </div>
+            <div id='image_container' className='hidden md:block mr-8'>
+              <Image
+                className='relative z-0'
+                width={100}
+                src={seal}
+                alt='passive house tradesperson'
+                priority
+              />
+            </div>
+          </div>
         </div>
 
-        <div className='relative px-4 py-8 lg:py-12 flex-row md:flex justify-around items-center bg-lime-800/30	'>
+        <div className='relative px-4 py-6 lg:py-10 flex-row md:flex justify-around items-center bg-lime-800/30	'>
           <div id='image_container' className='flex justify-center '>
-            <Image
-              className='relative z-0 w-3/4 sm:w-1/2 md:w-full'
-              width={350}
-              src={logo}
-              alt='verdearch'
-              priority
-            />
-          </div>
-          <div id='image_container' className='hidden sm:flex md:order-first'>
-            <Image
-              className='relative z-0'
-              width={120}
-              src={seal}
-              alt='passive house tradesperson'
-              priority
-            />
-          </div>
-          <div id='image_container' className='hidden md:flex'>
-            <Image
-              className='relative z-0 invisible'
-              width={150}
-              src={logo}
-              alt='logo'
-            />
+            <Image width={330} src={logo} alt='verdearch' priority />
           </div>
         </div>
         <div className='relative px-4 py-4 mt-2 md:px-10 container xl:w-3/4 mx-auto backdrop-blur-sm bg-white/10'>
