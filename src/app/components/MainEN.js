@@ -18,9 +18,9 @@ const Main = () => {
       />
       <div
         id='overlay'
-        className='bg-gradient-to-t from-white from-2% absolute inset-0'></div>
+        className='bg-gradient-to-t from-white from-5% via-white/10 via-30% absolute inset-0'></div>
       <div className='w-full'>
-        <div className='relative p-6 bg-gradient-to-t from-white to transparent'>
+        <div className='relative p-6'>
           <div className='flex justify-end'>
             <Link href='/'>
               <div className='cursor-pointer'>
@@ -30,9 +30,11 @@ const Main = () => {
           </div>
 
           <div className='flex justify-between p-2'>
-            <div id='title' className='flex justify-center items-center'>
+            <div
+              id='title'
+              className='bg-white/70 rounded-xl p-2 lg:p-3 flex justify-center items-center'>
               <div>
-                <h2 className='text-2xl sm:text-3xl font-bold	relative'>
+                <h2 className='text-2xl sm:text-3xl font-bold	relative md:pb-2'>
                   Joanna Maria Daoud
                 </h2>
                 <h1 className='text-xl sm:text-2xl relative'>
