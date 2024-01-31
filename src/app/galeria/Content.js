@@ -11,6 +11,16 @@ import img8 from "public/slides/8.jpeg";
 import img9 from "public/slides/9.jpeg";
 import img10 from "public/slides/10.jpg";
 import img11 from "public/slides/11.jpg";
+import img12 from "public/slides/12.jpg";
+import img13 from "public/slides/13.jpg";
+import img14 from "public/slides/14.jpg";
+import img15 from "public/slides/15.jpg";
+import img16 from "public/slides/16.jpg";
+import img17 from "public/slides/17.jpg";
+import img18 from "public/slides/18.jpg";
+import img19 from "public/slides/19.jpg";
+import img20 from "public/slides/20.jpg";
+import img21 from "public/slides/21.jpg";
 import GalleryImage from "../components/GalleryImage";
 const Content = () => {
   const images = [
@@ -25,6 +35,16 @@ const Content = () => {
     img9,
     img10,
     img11,
+    img12,
+    img13,
+    img14,
+    img15,
+    img16,
+    img17,
+    img18,
+    img19,
+    img20,
+    img21,
   ];
   return (
     <div className='relative min-h-screen sm:min-h-[calc(100vh-177px)] bg-gray-800 overflow-hidden	'>
