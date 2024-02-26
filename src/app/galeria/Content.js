@@ -21,6 +21,8 @@ import img18 from "public/slides/18.jpg";
 import img19 from "public/slides/19.jpg";
 import img20 from "public/slides/20.jpg";
 import img21 from "public/slides/21.jpg";
+import img22 from "public/slides/22.jpg";
+import img23 from "public/slides/23.jpg";
 import GalleryImage from "../components/GalleryImage";
 const Content = () => {
   const images = [
@@ -45,6 +47,8 @@ const Content = () => {
     img19,
     img20,
     img21,
+    img22,
+    img23,
   ];
   return (
     <div className='relative min-h-screen sm:min-h-[calc(100vh-177px)] bg-gray-800 overflow-hidden	'>
