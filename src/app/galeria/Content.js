@@ -57,7 +57,32 @@ const Content = () => {
           Galeria
         </h1>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 p-10'>
+      <div className='mt-4 mb-2'>
+        <h1 className='p-4 text-3xl text-center text-white uppercase bg-gray-400'>
+          Biophilic Architecture examples
+        </h1>
+      </div>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 p-5'>
+        {images.map((image, id) => {
+          return <GalleryImage key={id} image={image} />;
+        })}
+      </div>
+      <div className='mt-4 mb-2'>
+        <h1 className='p-4 text-3xl text-center text-white uppercase bg-gray-400'>
+          Biophilic Interiors examples
+        </h1>
+      </div>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 p-5'>
+        {images.map((image, id) => {
+          return <GalleryImage key={id} image={image} />;
+        })}
+      </div>
+      <div className='mt-4 mb-2'>
+        <h1 className='p-4 text-3xl text-center text-white uppercase bg-gray-400'>
+          W realizacji
+        </h1>
+      </div>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 p-5'>
         {images.map((image, id) => {
           return <GalleryImage key={id} image={image} />;
         })}
