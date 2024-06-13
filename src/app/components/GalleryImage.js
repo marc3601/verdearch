@@ -35,17 +35,19 @@ const GalleryImage = ({ image }) => {
             </div>
           </div>
         )}
-        <Image
-          src={image}
-          alt='projekt biofiliczny'
-          width={400}
-          height={400}
-          placeholder='blur'
-          objectFit='cover'
-          objectPosition='center'
-          className='w-full transition hover:scale-105 cursor-zoom-in	'
-          onClick={() => setActive(true)}
-        />
+        <div className='rounded-md overflow-hidden'>
+          <Image
+            src={image}
+            alt='projekt biofiliczny'
+            width={500}
+            height={500}
+            placeholder='blur'
+            objectFit='cover'
+            objectPosition='center'
+            className='w-full transition hover:scale-105 cursor-zoom-in	'
+            onClick={() => setActive(true)}
+          />
+        </div>
       </div>
     </>
   );
