@@ -62,6 +62,8 @@ import w4 from "public/slides/work/4.jpg";
 import w5 from "public/slides/work/5.jpg";
 import w6 from "public/slides/work/6.jpg";
 import w7 from "public/slides/work/7.jpg";
+import w8 from "public/slides/work/t1.jpg";
+import w9 from "public/slides/work/t2.jpg";
 
 import GalleryImage from "../components/GalleryImage";
 const Content = () => {
@@ -124,7 +126,7 @@ const Content = () => {
     in28,
     in29,
   ];
-  const images3 = [w1, w2, w3, w4, w5, w6, w7];
+  const images3 = [w1, w2, w3, w4, w5, w6, w7, w8, w9];
   return (
     <div className='relative min-h-screen sm:min-h-[calc(100vh-177px)] bg-gray-800 overflow-hidden	'>
       <div>

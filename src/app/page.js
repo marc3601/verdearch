@@ -59,8 +59,8 @@ export default function Home() {
             width={300}
           />
           <OfferLink
-            title='Blog'
-            link='/'
+            title='Portfolio'
+            link='/portfolio'
             image={blog}
             background
             width={300}
