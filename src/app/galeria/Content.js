@@ -134,7 +134,7 @@ const Content = () => {
           Galeria
         </h1>
       </div>
-      <div className='mt-4 mb-2'>
+      {/* <div className='mt-4 mb-2'>
         <h1 className='p-4 text-2xl md:text-3xl text-center text-white uppercase bg-gray-400'>
           Biophilic Architecture examples
         </h1>
@@ -163,7 +163,7 @@ const Content = () => {
         {images3.map((image, id) => {
           return <GalleryImage key={id} image={image} />;
         })}
-      </div>
+      </div> */}
     </div>
   );
 };
